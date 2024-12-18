@@ -1,0 +1,27 @@
+body {
+  background-color: #f3b391 !important;
+}
+h1 {
+  font-family: "Rubik Gemstones", serif;
+  font-size: 2.5rem;
+  color: #29274c;
+}
+div {
+  width: 40%;
+  height: 40%;
+  margin: 30%;
+  margin-top: 20%;
+}
+#click {
+  margin-top: 5%;
+  button {
+    background-color: #012a36;
+    font-family: "Indie Flower", serif;
+    font-size: 1.2rem;
+    text-align: center;
+    a {
+      color: #cff27e;
+      text-decoration: none;
+    }
+  }
+}

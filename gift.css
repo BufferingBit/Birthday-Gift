@@ -1,0 +1,36 @@
+/* poem.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Delius Swash Caps", serif;
+  background: url("cloud.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#poem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.poem-line {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  opacity: 0.6;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.poem-line.active {
+  opacity: 1;
+  transform: scale(1.2);
+  color: #ffd700;
+}
